@@ -1,0 +1,50 @@
+version: 2.1
+
+orbs:
+  
+  node: circleci/node@4.1
+
+
+jobs:
+  # Below is the definition of your job to build and test your app, you can rename and customize it as you want.
+  build-and-test:
+   
+    docker:
+      - image: circleci/node:latest-browsers
+    
+    steps:
+     
+      - checkout
+      
+      - node/install-packages
+      
+      - run:
+          name: Run tests
+          command: |
+            npm run test
+            npm run report:generate
+            zip -r allure-report.zip allure-report
+      - run:
+          when: on_fail
+          name: Generate fail results
+          command: |
+            npm run test
+            npm run report:generate
+            zip -r allure-report.zip allure-report
+      - store_artifacts:
+          path: allure-report.zip
+
+workflows:
+  commit:
+    jobs:
+      - build-and-test
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - build-and-test
