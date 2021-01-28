@@ -1,0 +1,56 @@
+{
+  "uid" : "75f7650a93b1781c",
+  "name" : "should login and validate Shop ",
+  "fullName" : "My Shop tab.should login and validate Shop ",
+  "historyId" : "8891c1d0c3e7a5ce0b4c549c4c9d1eaa",
+  "time" : {
+    "start" : 1611800292816,
+    "stop" : 1611800300401,
+    "duration" : 7585
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login and validate Shop "
+  }, {
+    "name" : "package",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75f7650a93b1781c.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "658abb6b2860bf65",
+  "name" : "1",
+  "fullName" : "My Shop tab.1",
+  "historyId" : "34f78fa62a22d62faea85018551d6ec1",
+  "time" : {
+    "start" : 1611799783200,
+    "stop" : 1611799783629,
+    "duration" : 429
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "1"
+  }, {
+    "name" : "package",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "658abb6b2860bf65.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

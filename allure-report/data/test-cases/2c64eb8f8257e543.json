@@ -1,0 +1,98 @@
+{
+  "uid" : "2c64eb8f8257e543",
+  "name" : "4",
+  "fullName" : "My Shop tab.4",
+  "historyId" : "80491acb7217744bcb04eae51e302164",
+  "time" : {
+    "start" : 1611800305918,
+    "stop" : 1611800306082,
+    "duration" : 164
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "4"
+  }, {
+    "name" : "package",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4a8dce4d5e080ea8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611800071663,
+        "stop" : 1611800071865,
+        "duration" : 202
+      }
+    }, {
+      "uid" : "786344ee41fb14fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611799918253,
+        "stop" : 1611799918427,
+        "duration" : 174
+      }
+    }, {
+      "uid" : "6ebb4882e39b973a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611799785763,
+        "stop" : 1611799785926,
+        "duration" : 163
+      }
+    }, {
+      "uid" : "de41d0a3faefe5ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611799754249,
+        "stop" : 1611799754487,
+        "duration" : 238
+      }
+    }, {
+      "uid" : "b3a0536459377910",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611799617476,
+        "stop" : 1611799617691,
+        "duration" : 215
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c64eb8f8257e543.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

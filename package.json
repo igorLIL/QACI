@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js",
+    "report:generate": "npx allure generate allure-results -o allure-report --clean",
+    "report:open": "npx allure open allure-report"
   },
   "keywords": [],
   "author": "",
@@ -20,8 +22,8 @@
     "@wdio/mocha-framework": "^6.10.4",
     "@wdio/spec-reporter": "^6.8.1",
     "@wdio/sync": "^6.10.4",
+    "allure-commandline": "^2.13.8",
     "chromedriver": "^87.0.2",
-    "wdio-chromedriver-service": "^6.0.4",
-    "allure-commandline": "^2.13.8"
+    "wdio-chromedriver-service": "^6.0.4"
   }
 }

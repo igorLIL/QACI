@@ -1,0 +1,142 @@
+{
+  "uid" : "36519a32237935e2",
+  "name" : "should login and validate Shop ",
+  "fullName" : "My Shop tab.should login and validate Shop ",
+  "historyId" : "8891c1d0c3e7a5ce0b4c549c4c9d1eaa",
+  "time" : {
+    "start" : 1611800306807,
+    "stop" : 1611800309049,
+    "duration" : 2242
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login and validate Shop "
+  }, {
+    "name" : "package",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "75f7650a93b1781c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611800292816,
+        "stop" : 1611800300401,
+        "duration" : 7585
+      }
+    }, {
+      "uid" : "7148af7c7e93c1d3",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForClickable' of undefined",
+      "time" : {
+        "start" : 1611800072639,
+        "stop" : 1611800073454,
+        "duration" : 815
+      }
+    }, {
+      "uid" : "ba98d743f1922ff5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611800061013,
+        "stop" : 1611800065849,
+        "duration" : 4836
+      }
+    }, {
+      "uid" : "c2ed420d6fa8bde4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611799902698,
+        "stop" : 1611799913452,
+        "duration" : 10754
+      }
+    }, {
+      "uid" : "70b071e4cc018065",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForClickable' of undefined",
+      "time" : {
+        "start" : 1611799786680,
+        "stop" : 1611799786812,
+        "duration" : 132
+      }
+    }, {
+      "uid" : "6a6973e6d8a729f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611799770746,
+        "stop" : 1611799783200,
+        "duration" : 12454
+      }
+    }, {
+      "uid" : "87a3a5856c49b89c",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForClickable' of undefined",
+      "time" : {
+        "start" : 1611799755359,
+        "stop" : 1611799755572,
+        "duration" : 213
+      }
+    }, {
+      "uid" : "32d7fd808f06810a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611799727347,
+        "stop" : 1611799733895,
+        "duration" : 6548
+      }
+    }, {
+      "uid" : "3238e7e8d0bc5621",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForClickable' of undefined",
+      "time" : {
+        "start" : 1611799618479,
+        "stop" : 1611799618623,
+        "duration" : 144
+      }
+    }, {
+      "uid" : "36bbf070e785ef1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611799607365,
+        "stop" : 1611799612026,
+        "duration" : 4661
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36519a32237935e2.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

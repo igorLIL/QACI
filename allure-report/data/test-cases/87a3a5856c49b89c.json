@@ -1,0 +1,58 @@
+{
+  "uid" : "87a3a5856c49b89c",
+  "name" : "should login and validate Shop ",
+  "fullName" : "My Shop tab.should login and validate Shop ",
+  "historyId" : "8891c1d0c3e7a5ce0b4c549c4c9d1eaa",
+  "time" : {
+    "start" : 1611799755359,
+    "stop" : 1611799755572,
+    "duration" : 213
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'waitForClickable' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'waitForClickable' of undefined\n                    at Context.<anonymous> (C:\\Program Files\\Git\\QACI\\test\\specs\\/shop.js:73:26)\n                    at Context.executeSync (C:\\Program Files\\Git\\QACI\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Program Files\\Git\\QACI\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login and validate Shop "
+  }, {
+    "name" : "package",
+    "value" : "My Shop tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87a3a5856c49b89c.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}
